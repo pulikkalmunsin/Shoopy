@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- bootstrap start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- bootstrap end -->
+
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- google font -->
+
+    <!-- style link -->
+<link rel="stylesheet" href="CSS/style.css">
+    <!-- style link end -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="image/shoopy.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categeries
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Electronics</a></li>
+                  <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                  <li><a class="dropdown-item" href="#">Fashion</a></li>
+                  <li><a class="dropdown-item" href="#">Beauty&Groomings</a></li>
+                  <li><a class="dropdown-item" href="#">Acceseries</a></li>
+                  <li><a class="dropdown-item" href="#">Toy&Books</a></li>
+                  <li><a class="dropdown-item" href="#">Home Furnishing</a></li>
+                </ul>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">Today's Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cart-icon" href="#">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link profile-icon" href="#">Profile</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button  class="btn btn-outline-success" type="submit" >Search</button>
+            </form>
+            <div class="icons">
+                <span><a href="cart.html"><img src="image/cart.svg" alt=""></a></span>
+                <span><a href="profile.html"><img src="image/user.svg" alt=""></a></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+    <div class="product-body">
+
+    <!-- banner start -->
+    
+    <div id="slider-container">
+      <div id="slider">
+        <div class="slide">
+          <img src="image/banner-1.svg" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="image/banner-2.svg" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="image/banner-3.svg" alt="Slide 3">
+        </div>
+      </div>
+    </div>
+    
+    <!-- banner end -->
+
+    <!-- section-1 start -->
+    <span class="categery-head"><h1>Last Viewed</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+   <div class="cards-section">
+    <div class="cards-1">
+    <div class="product-card">
+      <a href=""><img src="image/Product Img/Casual_Sneakers.png" alt="Product Image"></a>
+      <div class="product-details">
+        <p class="categery-name">Fashion</p>
+        <div class="product-title">Adidas Casual_Sneaker</div>
+        <div class="product-price">$599.99</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <a href="cart.html"><img src="image/Product Img/JBL_CLIP4_.png" alt="Product Image"></a>
+      <div class="product-details">
+        <p class="categery-name">Electronics</p>
+        <div class="product-title">JBL CLIP4 Speakers</div>
+        <div class="product-price">$699.00</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <a href=""><img src="image/Product Img/OPPO_A54_5G.png" alt="Product Image"></a>
+      <div class="product-details">
+        <p class="categery-name">Mobiles</p>
+        <div class="product-title">OPPO A54</div>
+        <div class="product-price">$1599.00</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="cards-2">
+    <div class="product-card">
+      <a href=""><img src="image/Product Img/SOLY_HUX_Men.png" alt="Product Image"></a>
+      <div class="product-details">
+        <p class="categery-name">Fashion</p>
+        <div class="product-title">SOLY HUX Men Shirt</div>
+        <div class="product-price">$599.99</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <a href=""><img src="image/Product Img/XPS_13_Plus_Laptop__.png" alt="Product Image"></a>
+      <div class="product-details">
+        <p class="categery-name">Electronics</p>
+        <div class="product-title">Acer XPS 13 Plus</div>
+        <div class="product-price">$45499.00</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <a href=""><img src="image/Product Img/Fossil_Men watch.png" alt="Product Image"></a>
+      <div class="product-details">
+        <p class="categery-name">Fashion</p>
+        <div class="product-title">Fossil Watch </div>
+        <div class="product-price">$759.00</div>    
+      </div>
+    </div>
+  </div>
+  
+
+
+  </div>
+    <!-- lsection-1 end -->
+
+     <!-- section-2 start -->
+     <span class="categery-head"><h1>Today's Deals</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+     <div class="cards-section">
+      <div class="cards-1">
+      <div class="product-card">
+        <img src="image/Product Img/tommy t shirt.png" alt="Product Image">
+        <div class="product-details">
+          <p class="categery-name">Fashion</p>
+          <div class="product-title">TOMMYHILFIGER TShirt</div>
+          <div class="product-price">$649.99</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="image/Product Img/Hangle shoe.png" alt="Product Image">
+        <div class="product-details">
+          <p class="categery-name">Fashion</p>
+          <div class="product-title">Hangle Shoe foe Men</div>
+          <div class="product-price">$899.99</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="image/Product Img/NULAXY_ERGONOMIC_ADJUSTABLE_COMPATIBLE_COMPUTER-.png" alt="Product Image">
+        <div class="product-details">
+          <p class="categery-name">Electronics</p>
+          <div class="product-title">Laptop Stand</div>
+          <div class="product-price">$499.00</div>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="cards-2">
+      <div class="product-card">
+        <img src="image/Product Img/Men_s_jeans_-_Black.png" alt="Product Image">
+        <div class="product-details">
+          <p class="categery-name">Fashion</p>
+          <div class="product-title">Black Jeans for Men</div>
+          <div class="product-price">$749.99</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="image/Product Img/Redragon_K552-RGB_LED_.png" alt="Product Image">
+        <div class="product-details">
+          <p class="categery-name">Electronics</p>
+          <div class="product-title">Redragon RGB LED</div>
+          <div class="product-price">$599.00</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="image/Product Img/men jeans.png" alt="Product Image">
+        <div class="product-details">
+          <p class="categery-name">Fashion</p>
+          <div class="product-title">Jeans for Mens </div>
+          <div class="product-price">$759.00</div>    
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    </div>
+      <!-- section-2 end -->
+
+      <!-- section-3 start -->
+    <span class="categery-head"><h1>Shoopy Top Sellers</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+    <div class="cards-section">
+     <div class="cards-1">
+     <div class="product-card">
+       <img src="image/Product Img/_Skater__Jeans.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Skater Jeans for Girls</div>
+         <div class="product-price">$559.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/MacBook_Air_2022_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">MacBook Air </div>
+         <div class="product-price">$75599.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Microsoft_Xbox_Series_S_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">Microsoft Xbox Series S </div>
+         <div class="product-price">$13599.00</div>
+       </div>
+     </div>
+ 
+   </div>
+ 
+   <div class="cards-2">
+     <div class="product-card">
+       <img src="image/Product Img/Samsung_Galaxy_A23_5G.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Mobiles</p>
+         <div class="product-title">Samsung A23 5G</div>
+         <div class="product-price">$18599.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Rose_Gown_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Rose Gown For Kids</div>
+         <div class="product-price">$999.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/gaming led mouse.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">Gaming LED Mouse </div>
+         <div class="product-price">$659.00</div>    
+       </div>
+     </div>
+   </div>
+   </div>
+     <!-- section-3 end -->
+
+    <!--AD section Start  -->
+
+    <div class="banner">
+      <div class="banner-section section1">
+          <div>
+            <img src="image/second-banner-2.svg" alt="">
+          </div>
+      </div>
+      <div class="banner-section section2">
+          <div>
+            <img src="image/second-banner-1.jpg" alt="">
+          </div>
+      </div>
+  </div>
+
+    <!--AD section End  -->
+
+      <!-- section-4 start -->
+    <span class="categery-head"><h1>Best Sellers In Fashion</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+    <div class="cards-section">
+     <div class="cards-1">
+     <div class="product-card">
+       <img src="image/Product Img/jeans shirt.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Denim Shirt For Men</div>
+         <div class="product-price">$799.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Kids_lehenga_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Kids Red&White Gown</div>
+         <div class="product-price">$1119.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/men casual shirt.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Men Jacket And Tshirt</div>
+         <div class="product-price">$699.00</div>
+       </div>
+     </div>
+ 
+   </div>
+ 
+   <div class="cards-2">
+     <div class="product-card">
+       <img src="image/Product Img/Men_Jeans_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Jeans for Men</div>
+         <div class="product-price">$799.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Mens_Veins tshirt.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Tshirt for men</div>
+         <div class="product-price">$399.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/adida shoe.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Fashion</p>
+         <div class="product-title">Adidas G05 Sneaker </div>
+         <div class="product-price">$959.00</div>    
+       </div>
+     </div>
+   </div>
+   </div>
+     <!-- section-4 end -->
+
+      <!-- section-5 start -->
+    <span class="categery-head"><h1>Best Sellers In Electronics</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+    <div class="cards-section">
+     <div class="cards-1">
+     <div class="product-card">
+       <img src="image/Product Img/XPS_13_Plus_Laptop__.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">Acer XPS 13 Plus</div>
+         <div class="product-price">$65000.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Xiaomi bt speaker.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">Xiaomi BT Speaker</div>
+         <div class="product-price">$899.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/gaming led mouse.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">Gaming LED Mouse</div>
+         <div class="product-price">$599.00</div>
+       </div>
+     </div>
+ 
+   </div>
+ 
+   <div class="cards-2">
+     <div class="product-card">
+       <img src="image/Product Img/Redragon_K552-RGB_LED_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">Redragon RGB LED</div>
+         <div class="product-price">$549.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/MacBook_Air_2022_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">MacBook Air</div>
+         <div class="product-price">$75499.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/headphone.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Electronics</p>
+         <div class="product-title">HeadPhone</div>
+         <div class="product-price">$659.00</div>    
+       </div>
+     </div>
+   </div>
+   
+ 
+ 
+   </div>
+     <!-- section-5 end -->
+
+      <!-- section-6 start -->
+    <span class="categery-head"><h1>Best Sellers In Toys & Books</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+    <div class="cards-section">
+     <div class="cards-1">
+     <div class="product-card">
+       <img src="image/Product Img/wings of fire book.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Books</p>
+         <div class="product-title">Wings Of Fire</div>
+         <div class="product-price">$599.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Bear__Teddy_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Toys</p>
+         <div class="product-title">Bear Teddy 15"</div>
+         <div class="product-price">$339.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/toycar.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Toys</p>
+         <div class="product-title">Car in Kids</div>
+         <div class="product-price">$1799.00</div>
+       </div>
+     </div>
+ 
+   </div>
+ 
+   <div class="cards-2">
+     <div class="product-card">
+       <img src="image/Product Img/War_and_Peace_book.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Books</p>
+         <div class="product-title">War And Peace</div>
+         <div class="product-price">$699.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Jane_Eyre__book.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Books</p>
+         <div class="product-title">Jane Eyre</div>
+         <div class="product-price">$499.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/toycar2.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Toys</p>
+         <div class="product-title">Electric Car For Kidss</div>
+         <div class="product-price">$4799.00</div>    
+       </div>
+     </div>
+   </div>
+   
+ 
+ 
+   </div>
+     <!-- section-6 end -->
+
+      <!-- section-7 start -->
+    <span class="categery-head"><h1>Pick Your Beauty Items</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+    <div class="cards-section">
+     <div class="cards-1">
+     <div class="product-card">
+       <img src="image/Product Img/Fair___Lovely_Face_Cream__50g_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Beauty&Grooming</p>
+         <div class="product-title">Fair Lovely .50g</div>
+         <div class="product-price">$199.99</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Himalaya_face wash.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Beauty&Grooming</p>
+         <div class="product-title">Himalaya face wash</div>
+         <div class="product-price">$119.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/_Lipcolors_In_Matte__.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Beauty&Grooming</p>
+         <div class="product-title">Lipstick Red</div>
+         <div class="product-price">$99.00</div>
+       </div>
+     </div>
+ 
+   </div>
+ 
+   <div class="cards-2">
+     <div class="product-card">
+       <img src="image/Product Img/AXE_Body_Spray_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Beauty&Grooming</p>
+         <div class="product-title">AXE Body Spray</div>
+         <div class="product-price">$299.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/FVO_Cosmetic_CC_Cream.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Beauty&Grooming</p>
+         <div class="product-title">FVO Cosmetic CC Cream</div>
+         <div class="product-price">$249.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Mascaras_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Beauty&Grooming</p>
+         <div class="product-title">Mascaras </div>
+         <div class="product-price">$89.00</div>    
+       </div>
+     </div>
+   </div>
+   
+ 
+ 
+   </div>
+     <!-- section-7 end -->
+
+     <!-- section-8 start -->
+     <span class="categery-head"><h1>Best Offer In Mobiles</h1> <img class="arrow-icon" src="image/arrow.svg" alt=""></span>
+    <div class="cards-section">
+     <div class="cards-1">
+     <div class="product-card">
+       <img src="image/Product Img/Samsung_Galaxy_A23_5G.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Mobiles</p>
+         <div class="product-title">Samsung A23 5G</div>
+         <div class="product-price">$15599.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Poco_Xiaomi_F1_.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Mobiles</p>
+         <div class="product-title">Poco F1</div>
+         <div class="product-price">$11999.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Realme_C53-.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Mobiles</p>
+         <div class="product-title">Realme C53</div>
+         <div class="product-price">$12599.00</div>
+       </div>
+     </div>
+ 
+   </div>
+ 
+   <div class="cards-2">
+     <div class="product-card">
+       <img src="image/Product Img/SAMSUNG_Galaxy_A04.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Mobiles</p>
+         <div class="product-title">Samsung A04</div>
+         <div class="product-price">$9999.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/OPPO_A54_5G.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Mobiles</p>
+         <div class="product-title">OPPO A54 5G</div>
+         <div class="product-price">$14599.00</div>
+       </div>
+     </div>
+     <div class="product-card">
+       <img src="image/Product Img/Redmi_12_1.png" alt="Product Image">
+       <div class="product-details">
+         <p class="categery-name">Redmi 12 5G</p>
+         <div class="product-title">Mobiles </div>
+         <div class="product-price">$15499.00</div>    
+       </div>
+     </div>
+    </div>
+   </div>
+    <!-- section-8 End -->
+  </div>
+  <!-- Footer Start -->
+
+<div class="footer-section">
+  <div class="left-section">
+    <h4 class="about">About</h4>
+    <p class="about-section">
+      <a href="">About Us</a>
+      <a href="">Contact Us</a>
+      <a href="">Careers</a>
+      <a href="">Terms&Conditions</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Help</a>
+    </p>
+  </div>
+  <div class="mid-section">
+    <h4 class="socailmedai-id">Connect With Us</h4>
+    <p class="socailmedia">
+      <a href="">Instagram</a>
+      <a href="">Twitter</a>
+      <a href="">Facebook</a>
+    </p>
+  </div>
+  <div class="right-section">
+    <h4 class="office-location">Register Office Address</h4>
+    <p class="address">
+      <a href="">Shoopy privet limitted,
+        Building no :5, Embassy village,
+        Gandhi road, Aluva juction, 
+        kerala, Kochi, Kakkanad,
+        Edachira - (69845265)</a>
+    </p>
+  </div>
+</div>
+
+  <!-- Footer Start -->
+
+  
+<!-- script section -->
+   <script src="Script/script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- script section -->
+</body>
+
+</html>
